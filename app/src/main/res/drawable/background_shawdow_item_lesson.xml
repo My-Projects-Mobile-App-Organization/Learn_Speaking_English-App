@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <corners android:radius="25dp" />
+
+            <padding
+                android:top="1.5dp"
+                android:right="1.5dp"
+                android:left="1.5dp"
+                android:bottom="3dp"/>
+
+            <solid android:color="#EECBAD" />
+        </shape>
+    </item>
+
+
+    <!-- Background -->
+    <item>
+        <shape>
+
+            <solid android:color="#FFE4C4" />
+
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+
+</layer-list>

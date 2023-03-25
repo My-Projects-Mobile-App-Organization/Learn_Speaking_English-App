@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn vào các cặp tương ứng"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txtTitleMW"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2.75"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/btn1ChoiceMWAS"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:background="@drawable/background_shadow_board"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgloudsp1MWAS"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:backgroundTint="@color/colorPurple"
+                    android:src="@drawable/loudsp" />
+
+                <ImageView
+                    android:id="@+id/imgwave1MWAS"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/soundwave" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_shadow_board"
+                android:id="@+id/btn2ChoiceMWAS"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgloudsp2MWAS"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:backgroundTint="@color/colorPurple"
+                    android:src="@drawable/loudsp" />
+
+                <ImageView
+                    android:id="@+id/imgwave2MWAS"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/soundwave" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_shadow_board"
+                android:id="@+id/btn3ChoiceMWAS"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/black">
+
+                <ImageView
+                    android:id="@+id/imgloudsp3MWAS"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:backgroundTint="@color/colorPurple"
+                    android:src="@drawable/loudsp" />
+
+                <ImageView
+                    android:id="@+id/imgwave3MWAS"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/soundwave" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/background_shadow_board"
+                android:id="@+id/btn4ChoiceMWAS"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/black">
+
+                <ImageView
+                    android:id="@+id/imgloudsp4MWAS"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:backgroundTint="@color/colorPurple"
+                    android:src="@drawable/loudsp" />
+
+                <ImageView
+                    android:id="@+id/imgwave4MWAS"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/soundwave" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:textColor="@color/black"
+                android:background="@drawable/background_shadow_board"
+                android:layout_marginBottom="10dp"
+                android:text="dd"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/txt1ChoiceMWAS"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/background_shadow_board"
+                android:layout_marginBottom="10dp"
+                android:text="dd"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/txt2ChoiceMWAS"
+                />
+            <TextView
+                android:textColor="@color/black"
+
+                android:padding="10dp"
+                android:background="@drawable/background_shadow_board"
+                android:layout_marginBottom="10dp"
+                android:text="dd"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/txt3ChoiceMWAS"
+                />
+            <TextView
+                android:textColor="@color/black"
+
+                android:padding="10dp"
+                android:background="@drawable/background_shadow_board"
+                android:text="dd"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/txt4ChoiceMWAS"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btnCheckTestMW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kiểm tra"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#696969"
+            android:background="@drawable/background_button_uncheck_green"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

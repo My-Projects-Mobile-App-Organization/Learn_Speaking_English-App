@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="40dp"
+
+        >
+        <LinearLayout
+            android:id="@+id/btnLoudReviewVocabFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_loud_speaker_black"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        app:cardCornerRadius="30dp"
+        android:outlineAmbientShadowColor="@color/private_account"
+        >
+        <LinearLayout
+
+            android:background="#00BFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/txTitleVocabReviewFront"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="subject to"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/txtPhienam"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="phien am"
+                android:textSize="25sp"
+                />
+            <ImageView
+                android:id="@+id/imgVocabReviewFront"
+                android:layout_margin="5dp"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/icboss"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

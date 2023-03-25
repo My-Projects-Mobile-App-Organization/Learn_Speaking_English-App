@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentUI.WordPairingFragmentListening">
+
+    <Button
+        android:id="@+id/btnResetWordPairing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Replay"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textScreen"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In Fight Battle" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bgquestion"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="150dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textQuestion"
+                android:textColor="#332FA2"
+                android:textSize="26sp"
+                android:layout_width="220dp"
+                android:lineSpacingExtra="6dp"
+                android:layout_height="wrap_content"
+                android:text="Guess Animals in English language"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="#332FA2"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgpurple"
+            android:layout_width="200dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:text="Ammo"
+            android:textSize="24sp"
+            android:textColor="#FFF"
+            android:layout_marginRight="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/layoutParentTest"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridView
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridViewWordTest"
+                android:numColumns="4"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="vertical"-->
+    <!--    tools:context=".fragmentUI.WordPairingFragment">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/txtExitTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/heart_vers"
+            />
+        <ImageView
+            android:layout_marginLeft="-15dp"
+            android:padding="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/infinite"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn vào những gì bạn nghe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txtTitleWPVB"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:background="@drawable/background_shadow_blue_board"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/loudsp_white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/background_shadow_blue_board"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/turtle"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editTextAns"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:textColor="#332FA2"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/background_shadow_board"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutParentVB"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp">
+
+        <com.wefika.flowlayout.FlowLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wordPairingLayoutVB"
+            >
+
+        </com.wefika.flowlayout.FlowLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

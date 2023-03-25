@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc câu này"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txtTitleMW"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/ibtnLoudspRD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_shadow_blue_board"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/loudsp_white"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContentRD"
+            android:textColor="@color/black"
+            android:text="áhdakshdgkasda"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/background_button_radius_noboard"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/ibtnMicRD">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mic_sp" />
+
+        </LinearLayout>
+
+        <ToggleButton
+            android:visibility="gone"
+            android:background="@drawable/background_button_radius_noboard"
+            android:id="@+id/pauseRD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/pause"
+            android:textOn="@string/continueRecognition" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btnCheckTestRW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kiểm tra"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#696969"
+            android:background="@drawable/background_button_uncheck_green"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

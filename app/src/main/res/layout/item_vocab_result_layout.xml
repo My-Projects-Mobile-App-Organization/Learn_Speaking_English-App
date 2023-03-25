@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="10dp"
+    android:weightSum="20"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgStatusVocab"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_incorrect" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_weight="7"
+            android:id="@+id/txtVocabRes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_weight="10"
+            android:id="@+id/txtTypeVocabResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="tiền công, tiền lương,tiền công, tiền lương,"
+            />
+
+        <ImageView
+            android:layout_weight="1.5"
+            android:id="@+id/imgViewVocab"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_reload" />
+
+
+
+    
+</LinearLayout>

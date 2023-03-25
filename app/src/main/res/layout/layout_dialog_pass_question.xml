@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_pass_question">
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good Job!"
+        android:textColor="#057805"
+        android:layout_marginTop="5dp"
+        android:textSize="27dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/contentTxtPDL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's countinue!"
+        android:textColor="#33CC00"
+        android:textSize="26dp"/>
+
+    <Button
+        android:background="@drawable/background_button_check_green"
+        android:id="@+id/btnNextQuestionDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

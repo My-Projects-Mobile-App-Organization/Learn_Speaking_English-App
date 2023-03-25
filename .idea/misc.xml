@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/background_button_check_failed_red.xml" value="0.24722222222222223" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/background_shadow_chat_item_answer.xml" value="0.2518518518518518" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/background_white_achievement_conversation_result.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/ic_book_white.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/back_btn.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_app.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_blue_achievement_conversation_result.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_button_check_green.xml" value="0.2101851851851852" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_button_radius_noboard.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_button_uncheck_green.xml" value="0.2101851851851852" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_circle_button_loud_sp.xml" value="0.19907407407407407" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_dialog_failed_question.xml" value="0.21203703703703702" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_dialog_pass_question.xml" value="0.21203703703703702" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_edit_text.xml" value="0.22685185185185186" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_green_achievement_conversation_result.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_plane.xml" value="0.19722222222222222" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow__board_button.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_blue_board.xml" value="0.2175925925925926" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_board.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_button.xml" value="0.20462962962962963" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_chat_item.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_chat_item_answer.xml" value="0.2518518518518518" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_click_board.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_correct_board.xml" value="0.20462962962962963" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shadow_error_board.xml" value="0.1" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/background_shawdow_item_lesson.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/circular_progressbar_result.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/cound_back_profile_100.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/custom_progress_bg.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/down_arrow_icon.xml" value="0.22685185185185186" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic__boys_2.xml" value="0.25555555555555554" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_about_us.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_accident_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_book.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_book_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_bookop.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_bookop_selected.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_boy_comunicator.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_calendar.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_check_list.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_childhood_memory_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_congratulation.xml" value="0.19722222222222222" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_correct.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_dark_mode.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_email_message.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_family_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_faq.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_favorite_rooms_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_fire_work.xml" value="0.19722222222222222" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_girl_comunicator.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_historical_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_home.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_home_selected.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_incorrect.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_language.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_let_go.xml" value="0.19722222222222222" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_logout.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_loud_speaker.xml" value="0.14635416666666667" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_loud_speaker_black.xml" value="0.1638888888888889" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_mic.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_notification.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_open_magazine_adobe_express.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_pencil.xml" value="0.2388888888888889" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_pencil_selected.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_plane.xml" value="0.19722222222222222" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_presents_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_privacy.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_profile.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_profile_selected.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_reload.xml" value="0.2703125" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_restaurant_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_rotate.xml" value="0.1638888888888889" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_target_conversation_result.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_teacher_home_frag.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_text_size.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_time_conversation_result.xml" value="0.26615384615384613" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_travel_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_website_conversation.xml" value="0.25925925925925924" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/right_arrow_icon.xml" value="0.22685185185185186" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_conversation_100.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_course_100.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_home_100.xml" value="0.23425925925925925" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_night_mode.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_notification.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_private_account.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_secondary_100.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_security.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/round_back_whiite10_20.xml" value="0.23055555555555557" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_card_flip.xml" value="0.2427536231884058" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_conversation_ques_and_answer.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_lesson_test.xml" value="0.152" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_result_conversation.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_result_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_review_vocabulary.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_standby_screen.xml" value="0.136" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_test.xml" value="0.176" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_vocabulary.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_card_back.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_card_back_vocab_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_card_flip_activity.xml" value="0.2427536231884058" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_card_front.xml" value="0.2427536231884058" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_card_front_vocab_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_conversation.xml" value="0.20425724637681159" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_course.xml" value="0.20425724637681159" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_edit_profile.xml" value="0.19293478260869565" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_home.xml" value="0.20425724637681159" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_listening_word.xml" value="0.24444444444444444" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_match_word_sound.xml" value="0.1" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_reading_word.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_result_lesson.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_word_pairing.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_word_pairing__vocab.xml" value="0.21014492753623187" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_word_pairing_listening.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_conversation_answer_default_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_conversation_answer_form_listening_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_conversation_answer_form_reading_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_conversation_layout.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_conversation_question_layout.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_review_vocab_layout.xml" value="0.2427536231884058" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_listening_word.xml" value="0.2" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_match_w_and_s.xml" value="0.16847826086956522" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_reading_word.xml" value="0.1" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_word_pairing.xml" value="0.16847826086956522" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_word_pairing_listening.xml" value="0.16" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_test_view_type_word_pairing_vocab.xml" value="0.16847826086956522" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/item_vocab_result_layout.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dialog_cancel_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dialog_failed_question.xml" value="0.21105072463768115" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dialog_failed_question_show_result.xml" value="0.176" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dialog_pass_question.xml" value="0.21105072463768115" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dialog_pass_question_show_result.xml" value="0.176" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/lesson_test_item_layout.xml" value="0.264" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/topic_conversation_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/User/Manh/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/topic_course_item_layout.xml" value="0.20425724637681159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentUI.EditProfileFragment">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/primary"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgBackProfileFrag"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="14dp"
+                app:srcCompat="@drawable/back_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Edit Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imgEditProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_settings"/>
+
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtFullName"
+                android:drawableLeft="@drawable/ic_full_name"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="Full Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtEmail"
+                android:drawableLeft="@drawable/ic_email_profile"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="E-Mail"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtPhone"
+                android:drawableLeft="@drawable/ic_phone_profile"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="Phone"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:text="Change Password"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgChangePass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    app:srcCompat="@drawable/right_arrow_icon" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:drawableRight="@drawable/ic_eye_password"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtOldPass"
+                android:drawableLeft="@drawable/ic_pass_word"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="Old Password"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+            <EditText
+                android:drawableRight="@drawable/ic_eye_password"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtNewPass"
+                android:drawableLeft="@drawable/ic_pass_word"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="New Password"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+            <EditText
+                android:drawableRight="@drawable/ic_eye_password"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/edtConfirmPass"
+                android:drawableLeft="@drawable/ic_pass_word"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edit_text"
+                android:hint="Confirm Password"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_back_secondary_100"
+                android:textColor="@color/primary"
+                android:textAllCaps="false"
+                android:text="Save"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
